@@ -1,0 +1,65 @@
+ID	Requirement Description
+1.0	User home page – All features availability
+1.1	Registration
+1.1.1	Taking full name
+1.1.2	Taking email address
+1.1.3	Taking phone number
+1.1.4	Taking password
+1.1.5	Taking date of birth
+1.1.6	Taking address
+1.1.7	Validating required registration fields
+1.1.8	Checking duplicate email/phone number
+1.1.9	Showing error message for duplicate email/phone number
+1.1.10	Submitting the form
+1.1.11	Resetting the form
+1.2	Login
+1.2.1	Taking username/email
+1.2.2	Taking password
+1.2.3	Providing forgot password option
+1.2.3.1	Taking registered email for password reset request
+1.2.3.2	Sending a password reset link/OTP to the registered email
+1.2.3.3	Taking OTP/reset code entered by the user
+1.2.3.4	Validating OTP/reset code before allowing password reset
+1.2.3.5	Taking and confirming new password
+1.2.3.6	Saving updated password
+1.2.4	Validating login credentials
+1.2.5	Showing error message for invalid login attempts
+1.2.6	Submission of the login
+1.2.7	Showing General Public Dashboard after successful login
+1.3	Dashboard
+1.3.1	Side menu
+1.3.1.1	Dashboard button [ref 1.3]
+1.3.1.2	Location search button
+1.3.1.2.1	Taking city/location name entered by user
+1.3.1.2.2	Validating entered location against supported locations
+1.3.1.2.3	Retrieving current weather data for validated location
+1.3.1.2.4	Showing current temperature, condition, and timestamp
+1.3.1.3	Weather details button
+1.3.1.3.1	Showing temperature in degrees Celsius
+1.3.1.3.2	Showing humidity percentage
+1.3.1.3.3	Showing wind speed in km/h
+1.3.1.3.4	Refreshing displayed values on data update
+1.3.1.4	Severe alerts button
+1.3.1.4.1	Detecting severe weather conditions for the user's saved location
+1.3.1.4.2	Generating alert for cyclone, flood, or thunderstorm risk
+1.3.1.4.3	Showing alert banner/notification to the user
+1.3.1.4.4	Saving alert to the user's alert history
+1.3.1.5	Trend chart button
+1.3.1.5.1	Retrieving 7-day forecast data for the saved location
+1.3.1.5.2	Rendering weekly weather trend graph
+1.3.1.5.3	Showing trend graph on the home screen
+1.3.1.6	Notification preferences button
+1.3.1.6.1	Showing SMS/email/push notification toggle options
+1.3.1.6.2	Taking selected notification preference
+1.3.1.6.3	Saving notification preference to user profile
+1.3.1.7	Logout button
+1.3.1.7.1	Showing login page [ref 1.2]
+1.3.2	Header
+1.3.2.1	Company logo on top left
+1.3.2.2	Logged in as (user name) on top right
+1.3.2.3	Logout button on top right [ref 1.3.1.7]
+1.3.3	Footer
+1.3.3.1	Privacy policy button
+1.3.3.1.1	Showing privacy policy page
+1.3.3.2	About us button
+1.3.3.2.1	Showing about us page

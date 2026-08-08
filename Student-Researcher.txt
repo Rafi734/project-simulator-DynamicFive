@@ -1,0 +1,30 @@
+ID	Requirement Description
+1.0	User home page – All features availability
+1.1	Registration [ref General Public 1.1]
+1.2	Login [ref General Public 1.2]
+1.3	Dashboard
+1.3.1	Side menu
+1.3.1.1	Dashboard button [ref 1.3]
+1.3.1.2	Regional search button
+1.3.1.2.1	Taking selected region/location for research
+1.3.1.2.2	Retrieving accurate current data for the selected region
+1.3.1.2.3	Retrieving valid historical data for the selected region
+1.3.1.3	Weather data view button
+1.3.1.3.1	Showing current and historical weather data in tabular format
+1.3.1.3.2	Data export option
+1.3.1.3.2.1	Taking selected export format (CSV/PDF)
+1.3.1.3.2.2	Generating downloadable file matching on-screen data
+1.3.1.3.2.3	Submitting file for download
+1.3.1.4	Alert history button
+1.3.1.4.1	Retrieving all past severe weather alerts for a selected date range
+1.3.1.4.2	Showing alert history log
+1.3.1.4.3	Downloading alert history log
+1.3.1.5	Trend analysis button
+1.3.1.5.1	Taking selected location(s) and date range
+1.3.1.5.2	Retrieving historical database records matching the selection
+1.3.1.5.3	Rendering visual weather pattern chart
+1.3.1.5.4	Ensuring chart values match stored historical records exactly
+1.3.1.6	Logout button
+1.3.1.6.1	Showing login page [ref 1.2]
+1.3.2	Header [ref General Public 1.3.2]
+1.3.3	Footer [ref General Public 1.3.3]

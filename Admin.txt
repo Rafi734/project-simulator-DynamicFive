@@ -1,0 +1,43 @@
+ID	Requirement Description
+1.0	User home page – All features availability
+1.1	Admin Login
+1.1.1	Taking Admin username/email
+1.1.2	Taking Admin password
+1.1.3	Validating Admin credentials
+1.1.4	Blocking invalid or unauthorized login attempts
+1.1.5	Showing Admin Dashboard after successful login
+1.2	Dashboard
+1.2.1	Side menu
+1.2.1.1	Dashboard button [ref 1.2]
+1.2.1.2	User database management button
+1.2.1.2.1	Retrieving all registered users and their information
+1.2.1.2.2	Showing user list with role and account status
+1.2.1.2.3	Adding a new user account
+1.2.1.2.4	Removing an existing user account
+1.2.1.2.5	Verifying database access with a valid Admin password
+1.2.1.3	User data verification button
+1.2.1.3.1	Reviewing pending user data update requests
+1.2.1.3.2	Requiring valid Admin biometrics and password before committing an update
+1.2.1.3.3	Approving or rejecting a user data update
+1.2.1.4	System monitoring button
+1.2.1.4.1	Retrieving filterable log of system errors
+1.2.1.4.2	Showing server status and activity history
+1.2.1.4.3	Filtering logs by date, severity, or module
+1.2.1.5	Weather API configuration button
+1.2.1.5.1	Showing list of configured external weather API sources
+1.2.1.5.2	Adding a new weather API endpoint
+1.2.1.5.3	Updating an existing weather API endpoint
+1.2.1.5.4	Testing a weather API endpoint from the settings panel
+1.2.1.5.5	Switching to a backup source automatically if a primary source fails
+1.2.1.6	Notification broadcast button
+1.2.1.6.1	Composing a custom system banner message
+1.2.1.6.2	Publishing the banner to all logged-in users on the homepage
+1.2.1.6.3	Making the banner dismissible by the user
+1.2.1.7	Reporting & analytics button
+1.2.1.7.1	Taking selected report date range
+1.2.1.7.2	Generating CSV/PDF report of daily active users and search volume
+1.2.1.7.3	Submitting report for download
+1.2.1.8	Logout button
+1.2.1.8.1	Showing login page [ref 1.1]
+1.2.2	Header [ref General Public 1.3.2]
+1.2.3	Footer [ref General Public 1.3.3]

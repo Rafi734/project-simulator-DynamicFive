@@ -1,0 +1,31 @@
+ID	Requirement Description
+1.0	User home page – All features availability
+1.1	Registration [ref General Public 1.1]
+1.2	Login [ref General Public 1.2]
+1.3	Dashboard
+1.3.1	Side menu
+1.3.1.1	Dashboard button [ref 1.3]
+1.3.1.2	Multi-district monitoring button
+1.3.1.2.1	Retrieving real-time weather data for all monitored districts
+1.3.1.2.2	Showing multi-location dashboard with simultaneous district data
+1.3.1.2.3	Refreshing district data automatically
+1.3.1.3	Atmospheric data button
+1.3.1.3.1	Showing detailed wind speed data
+1.3.1.3.2	Showing detailed atmospheric pressure data
+1.3.1.3.3	Refreshing atmospheric data at intervals under 15 minutes once an alert is active
+1.3.1.4	Early warning button
+1.3.1.4.1	Detecting forecast data crossing a defined severity threshold
+1.3.1.4.2	Generating early warning alert automatically
+1.3.1.4.3	Delivering alert to the authority within minutes
+1.3.1.4.4	Saving alert to the authority's alert history
+1.3.1.5	Comparative trend chart button
+1.3.1.5.1	Taking at least 2 selected locations for comparison
+1.3.1.5.2	Retrieving trend data for the selected locations
+1.3.1.5.3	Rendering side-by-side comparative trend charts
+1.3.1.6	Emergency broadcast button
+1.3.1.6.1	Composing emergency broadcast message
+1.3.1.6.2	Submitting broadcast to affected districts/users
+1.3.1.7	Logout button
+1.3.1.7.1	Showing login page [ref 1.2]
+1.3.2	Header [ref General Public 1.3.2]
+1.3.3	Footer [ref General Public 1.3.3]

@@ -1,0 +1,29 @@
+ID	Requirement Description
+1.0	User home page – All features availability
+1.1	Registration [ref General Public 1.1]
+1.2	Login [ref General Public 1.2]
+1.3	Dashboard
+1.3.1	Side menu
+1.3.1.1	Dashboard button [ref 1.3]
+1.3.1.2	Farm location search button
+1.3.1.2.1	Taking the farm's saved location or a newly entered location
+1.3.1.2.2	Retrieving 7-day forecast with rainfall probability for the location
+1.3.1.2.3	Showing forecast for irrigation, planting, and harvesting planning
+1.3.1.3	Field weather details button
+1.3.1.3.1	Showing humidity percentage for the field location
+1.3.1.3.2	Showing wind speed for the field location
+1.3.1.3.3	Comparing humidity/wind speed against safe pesticide-application thresholds
+1.3.1.3.4	Showing warning when values exceed safe-application thresholds
+1.3.1.4	Crop alerts button
+1.3.1.4.1	Detecting bad weather conditions affecting crops
+1.3.1.4.2	Generating crop protection alert at least 24 hours in advance where possible
+1.3.1.4.3	Showing alert banner/notification to the farmer
+1.3.1.4.4	Saving alert to the farmer's alert history
+1.3.1.5	Trend chart button
+1.3.1.5.1	Taking selected date range (week/month)
+1.3.1.5.2	Retrieving temperature/rainfall trend data for the date range
+1.3.1.5.3	Rendering temperature/rainfall trend chart
+1.3.1.6	Logout button
+1.3.1.6.1	Showing login page [ref 1.2]
+1.3.2	Header [ref General Public 1.3.2]
+1.3.3	Footer [ref General Public 1.3.3]
